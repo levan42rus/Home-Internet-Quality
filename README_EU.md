@@ -4,6 +4,8 @@ Prometheus + Grafana + Blackbox Exporter based monitoring system for detecting a
 
 The project is designed for situations where an Internet Service Provider (ISP) periodically loses connectivity and you need objective, timestamped evidence for support tickets and incident investigation.
 
+![Dashboard example](manual/images/grafana_dash.png)
+
 ## What this project does
 
 The monitoring system checks Internet connectivity every **15 seconds** using four independent probes:
